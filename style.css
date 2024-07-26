@@ -1,0 +1,48 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top:399px;
+    left: 399px;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 174, 70);
+    position: absolute;
+    top: 399px;
+    left:0px
+  
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color:gray;
+   position: absolute;
+   top:0px;
+   left: 399px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+   top: 0px;
+   left:0px
+}
+.parent-container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left:470px
+    
+}
+.child{
+    border: 2px solid black;
+    color: rgb(23, 229, 16);
+}
